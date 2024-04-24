@@ -1,0 +1,45 @@
+1. Compiling Java Code:
+   - Compilation is the process of converting human-readable Java source code into machine-readable bytecode.
+   - Java code is written in a human-readable form in `.java` files.
+   - When you compile Java code, you use a compiler like `javac` to translate this source code into bytecode.
+   - The compiler checks for syntax errors and generates bytecode files (`.class` files) for each class in the source code.
+   - These bytecode files contain instructions that can be executed by the Java Virtual Machine (JVM).
+   - Compilation ensures that the code is syntactically correct and follows the rules of the Java language.
+
+2. Running Java Code:
+   - Running Java code involves executing the bytecode produced by the compiler.
+   - To run a Java application, you need a Java Virtual Machine (JVM).
+   - The JVM is responsible for loading and executing bytecode.
+   - You typically run Java applications using the `java` command followed by the name of the main class (the class containing 
+   the `main` method).
+   - The JVM loads the bytecode files, performs necessary optimizations, and executes the instructions contained within them.
+   - During execution, the JVM interacts with the underlying operating system to perform tasks such as I/O operations, memory 
+   management, and thread scheduling.
+   - Running Java code results in the execution of the program, producing the desired output or performing the intended tasks.
+
+In summary, compiling Java code translates human-readable source code into bytecode, while running Java code executes the bytecode 
+using a Java Virtual Machine, producing the desired program behavior.
+
+
+
+JDK stands for Java Development Kit. It is a bundle of software components and tools that developers use to develop, 
+compile, debug, and run Java applications. The JDK includes:
+
+1. Java Runtime Environment (JRE): The JRE is the runtime environment that allows Java applications to be executed. 
+It includes the Java Virtual Machine (JVM), which is responsible for running Java bytecode on the host system, along 
+with libraries and other components required for running Java applications.
+
+2. Java Compiler (javac): The Java compiler (`javac`) translates Java source code files (`.java` files) into 
+bytecode files (`.class` files) that can be executed by the JVM. It performs syntax checking, type checking, and 
+other compilation tasks to ensure that the code is valid and can be executed correctly.
+
+3. Java Development Tools: The JDK includes various development tools such as `javac` (compiler), `java` (runtime), 
+`javadoc` (documentation generator), `jshell` (interactive Java shell), and others. These tools help developers write, 
+compile, test, and debug Java applications efficiently.
+
+4. Java API Libraries: The JDK provides a set of standard Java API libraries that developers can use to build Java applications.
+ These libraries include classes and interfaces for common tasks such as I/O operations, networking, GUI development, 
+ database access, and more.
+
+In summary, the JDK is a comprehensive development kit that provides everything developers need to develop and run Java 
+applications, including the runtime environment, compiler, development tools, and standard API libraries.
